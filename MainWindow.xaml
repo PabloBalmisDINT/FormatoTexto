@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FormatoTexto"
         mc:Ignorable="d"
-        Title="MainWindow"
+        Title="Formato Texto"
         Height="294.459"
-        Width="618.338">
+        Width="618.338" 
+        Icon="128(1).ico">
     <Grid>
         <TextBox HorizontalAlignment="Left"
                  Height="100"
@@ -56,7 +57,7 @@
                    Height="43"
                    Background="#3FD1FF00" 
                    x:Name="VisualizarTextoTextBlock"
-                   TextAlignment="Center" />
+                   TextAlignment="Center" TextTrimming="CharacterEllipsis" />
         <TextBlock HorizontalAlignment="Left"
                    Margin="429,68,0,0"
                    TextWrapping="Wrap"
